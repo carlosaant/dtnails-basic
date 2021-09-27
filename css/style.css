@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #ED213A;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #93291E, #ED213A) fixed;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #93291E, #ED213A) fixed;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.nav {
+    max-width: 100%;
+    max-height: 45px;
+    background-color: white;
+    border: transparent thin solid;
+
+    text-align: center;
+
+}
+
+.nav img {
+    width: 35px;
+    padding: 5px;
+}
+
+.mff {
+    margin-left: 15px;
+}
+
+header {
+    overflow: hidden;
+}
+
+.content-container {
+    max-width: 1200px;
+    /* height: 400px; */
+
+    /* background: #DAE2F8; */
+    background: #f8f6f5;
+    /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to top, #D6A4A4, #DAE2F8); */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to top, #D6A4A4, #DAE2F8); */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 5px;
+    /* border: transparent thin solid; */
+    overflow: hidden;
+
+    margin: auto;
+    margin-top: 5px;
+}
+
+.logo-box {
+
+    margin-top: 40px;
+    margin-left: 50px;
+    padding: 5px;
+
+    width: 300px;
+    height: 300px;
+    background: #D9D9D9;
+    /* box-sizing: border-box;  */
+    border-radius: 50%;
+    box-shadow: 2px 5px 5px gray;
+    overflow: hidden;
+
+    /* border: 1px solid black; */
+    border: transparent thin solid;
+
+    text-align: center;
+    float: left;
+    /* vertical-align: auto; */
+    /* display: block; */
+}
+
+.logo {
+    width: 280px;
+    margin-top: 15%;
+    margin-left: 5px;
+}
+
+.tittle-box {
+    /* width: 848px; */
+    display: inline-block;
+    /* margin: auto; */
+    margin-top: 80px;
+    /* float: right; */
+}
+
+.tittle-box h1 {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 70px;
+    text-decoration: overline;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+
+    margin-left: 30px;
+    letter-spacing: 3px;
+
+}
+
+.tittle-box h2 {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+    text-decoration: underline;
+    margin-left: 70px;
+}
+
+.tittle-box p {
+    font-family: monospace, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 20px;
+    color: rgb(29, 27, 27);
+    text-align: center;
+
+    margin-top: 10px;
+}
+
+
+.manicure-box {
+    float: right;
+    max-width: 450px;
+
+}
+
+.manicure-box img {
+    width: 100%;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    background: white;
+    border-top-left-radius: 120px;
+    /* 100px of height + 10px of border */
+    border-bottom-left-radius: 120px;
+}
+
+
+.info-box {
+    max-width: 100%;
+    /* padding: 20px; */
+    /* height: 300px; */
+
+    background: white;
+    border: transparent thin solid;
+    box-shadow: 1px 1px 5px gray;
+
+    overflow: hidden;
+}
+
+
+
+.informacoes-box {
+    max-width: 60%;
+    /* height: 400px; */
+
+    background: #870000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #190A05, #870000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #190A05, #870000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    box-sizing: border-box;
+
+    border: transparent thin solid;
+    border-radius: 10px;
+
+    color: white;
+
+    float: left;
+    /* display: inline-block; */
+
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+
+}
+
+.lista-infos {
+    list-style: none;
+    display: block;
+    /* overflow: hidden; */
+}
+
+.lista-infos li {
+    margin: 5px;
+    border-radius: 5px;
+
+    overflow: hidden;
+}
+
+.lista-infos img {
+    width: 140px;
+    float: left;
+    margin: 8px;
+}
+
+.lista-infos p {
+    /* width: 100px; */
+    /* float:left; */
+    padding: 10px;
+    display: block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: justify;
+}
+
+.bg-li1 {
+    background: rgba(228, 226, 226, 0.5);
+    ;
+}
+
+.contato-box {
+    width: 37%;
+    /* height: 397px; */
+
+    /* display: inline-block; */
+    float: right;
+
+    box-sizing: border-box;
+
+    /* border: transparent thin solid; */
+    border-radius: 10px;
+
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+    background: #CB356B;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #BD3F32, #CB356B);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.contato-box h2 {
+    font-size: 18px;
+    color: white;
+    padding: 5px;
+
+    text-transform: uppercase;
+    text-rendering: optimizeLegibility;
+
+    text-align: center;
+}
+
+.contato-box ul {
+    list-style: none;
+    padding: 5px;
+
+    background: rgba(228, 226, 226, 0.5);
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+
+   text-align: center;
+}
+
+.contato-box li {
+    color: white;
+    text-rendering: optimizeLegibility;
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+    overflow: hidden;
+}
+
+.contato-box li img{
+    width: 25px;
+    padding: 2px;
+    float: left;
+    
+}
+
+.contato-box li p{
+    margin-top: 7px;
+}
+
+.mapa-loc{
+
+    padding: 5px;
+    /* background-color: red; */
+    overflow: hidden;
+    margin-right: 5px;
+}
+
+
+/* ----------------------------------------- */
+
+.insta-content {
+    max-width: 100%;
+    /* height: 200px; */
+    /* padding: 300px; */
+    text-align: center;
+}
+
+.insta-box-phots{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* background: red; */
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+
+    border: transparent thin solid;
+    border-radius: 50%;
+    vertical-align: middle;
+    overflow: hidden;
+
+}
+
+.img1{
+    width:310px;
+    background-image: url("../assets/insta-dani1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+}
+
+.img2{
+    width:310px;
+    background-image: url("../assets/insta-dani2.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+}
+
+.img3{
+    width:310px;
+    background-image: url("../assets/insta-dani3.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+}
+
+
+@media screen and (max-width: 500px) {
+
+    .content-container {
+        max-width: 100%;
+        background: #f8f6f5;
+    }
+
+    .logo-box {
+
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 10px;
+
+        width: 100px;
+        height: 100px;
+    }
+
+    .logo {
+        width: 100px;
+        margin-top: 15%;
+        margin-left: 5px;
+    }
+
+    .tittle-box {
+        margin-top: 30px;
+
+    }
+
+    .tittle-box h1 {
+        /* font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; */
+        font-size: 25px;
+
+    }
+
+    .tittle-box h2 {
+        /* font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; */
+        font-size: 15px;
+    }
+
+    .tittle-box p {
+        font-size: 14px;
+        /* text-align: center; */
+        margin-top: 8px;
+        margin-left: 5px;
+    }
+
+    .manicure-box {
+        max-width: 90px;
+        margin-top: 18px;
+
+    }
+
+    .manicure-box img {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+
+    .informacoes-box {
+        max-width: 100%;
+        /* height: 400px; */
+
+        float: left;
+
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+
+    }
+
+    .contato-box {
+        width: 97%;
+        /* height: 400px; */
+
+        float: left;
+
+        margin-top: 5px;
+        margin-left: 5px;
+        /* margin-right: 15px; */
+        margin-bottom: 10px;
+
+
+    }
+
+}
