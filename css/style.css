@@ -326,25 +326,33 @@ header {
 
 }
 
+
 .img1{
-    width:310px;
+    /* width:310px; */
     background-image: url("../assets/insta-dani1.jpg");
-    background-repeat:no-repeat;
+    /* background-repeat:no-repeat;
     background-size:cover;
-    background-position:center center;
+    background-position:center center; */
 }
 
 .img2{
-    width:310px;
+    /* width:310px; */
     background-image: url("../assets/insta-dani2.jpg");
-    background-repeat:no-repeat;
+    /* background-repeat:no-repeat;
     background-size:cover;
-    background-position:center center;
+    background-position:center center; */
 }
 
 .img3{
-    width:310px;
+    /* width:310px; */
     background-image: url("../assets/insta-dani3.jpg");
+    /* background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center; */
+}
+
+.conf-img{
+    width:310px;
     background-repeat:no-repeat;
     background-size:cover;
     background-position:center center;
