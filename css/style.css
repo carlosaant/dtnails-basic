@@ -5,7 +5,30 @@
 
 html, body {
     height: 100vh;
-    background-color: aquamarine;
+    background-color: #FFBCE2;
+}
+
+.container{
+    display: grid;
+    grid-template: auto auto auto / auto auto auto;
+}
+
+.elem-header{
+    background-color: red;
+    grid-column-start: 1;
+    grid-column-end:  4;
+}
+
+.elem-main{
+    background-color: green;
+    grid-column-start: 1;
+    grid-column-end:  4;
+}
+
+.elem-footer{
+    background-color: black;
+    grid-column-start: 1;
+    grid-column-end:  4;
 }
 
 
