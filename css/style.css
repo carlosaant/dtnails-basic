@@ -73,7 +73,10 @@ html, body {
 .logo-div h1{
     font-family: 'Lavishly Yours', cursive;
     font-size: 80px;
+    letter-spacing: 1.4px;
     color: white;
+    text-shadow: 3px 5px 2px #502424;
+    transform: scale(1.1);
 }
 /* -------------- */
 .card {
