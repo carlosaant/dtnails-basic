@@ -13,11 +13,14 @@ html, body {
     grid-template: auto auto auto / auto auto auto;
 }
 
+/* ----------------- */
+
 .elem-header{
     background-color: #ED2424;
     grid-column-start: 1;
     grid-column-end:  4;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .menu-nav{
@@ -29,21 +32,38 @@ html, body {
 
 .menu-item{
     max-width: 50px;
-    padding: 10px;
+    padding: 5px;
 }
 .menu-item img{
     width: 100%;
 }
+.menu-item:first-child{
+    margin-right: 15px;
+}
+
+.logo-div{
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+    background-color: #FFF;
+    background-image: url(../assets/dt-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
 
 /* ----------------------------------------------- */
 .elem-main{
-    background-color: green;
+    background-color: #FE85AB;
     grid-column-start: 1;
     grid-column-end:  4;
 }
 
 .elem-footer{
-    background-color: black;
+    background-color: #C24F77;
     grid-column-start: 1;
     grid-column-end:  4;
 }
