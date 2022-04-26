@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -19,11 +21,16 @@ html, body {
 /* ----------------- */
 
 .elem-header{
-    background-color: #ED2424;
+    /* background-color: #ED2424; */
+    background: rgb(36,5,0);
+    background: linear-gradient(90deg, rgba(36,5,0,1) 0%, rgba(237,36,36,1) 37%, rgba(209,83,83,1) 100%);
     grid-column-start: 1;
     grid-column-end:  4;
     display: flex;
     flex-wrap: wrap;
+
+    justify-content: space-around;
+    align-items: center;
 }
 
 .menu-nav{
@@ -46,6 +53,10 @@ html, body {
 }
 
 .logo-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 800px;
     height: 400px;
     padding: 10px;
@@ -58,6 +69,69 @@ html, body {
 
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 }
+
+.logo-div h1{
+    font-family: 'Lavishly Yours', cursive;
+    font-size: 80px;
+    color: white;
+}
+/* -------------- */
+.card {
+    width: 320px;
+    height: 300px;
+    border-radius: 20px;
+    background: #f5f5f5;
+    position: relative;
+    padding: 1.8rem;
+    border: 2px solid #C24F77;
+    transition: 0.5s ease-out;
+    overflow: visible;
+   }
+   
+   .card-details {
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+   }
+   
+   .card-button {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #FFBCE2;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+   }
+   
+   .text-body {
+    color: rgb(134, 134, 134);
+   }
+   
+   /*Text*/
+   .text-title {
+    font-size: 1.5em;
+    font-weight: bold;
+   }
+   
+   /*Hover*/
+   .card:hover {
+    border-color: #FFBCE2;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+   }
+   
+   .card:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+   }
 
 /* ----------------------------------------------- */
 .elem-main{
