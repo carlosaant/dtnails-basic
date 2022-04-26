@@ -28,6 +28,7 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #FFF;
 }
 
 .menu-item{
@@ -60,6 +61,7 @@ html, body {
     background-color: #FE85AB;
     grid-column-start: 1;
     grid-column-end:  4;
+    height: 500px;
 }
 
 .elem-footer{
