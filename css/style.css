@@ -14,11 +14,33 @@ html, body {
 }
 
 .elem-header{
-    background-color: red;
+    background-color: #ED2424;
     grid-column-start: 1;
     grid-column-end:  4;
+    display: flex;
 }
 
+.logo-header{
+    max-width: 100px;
+    padding: 15px;
+}
+
+.menu-nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-item{
+    max-width: 50px;
+    padding: 10px;
+}
+.menu-item img{
+    width: 100%;
+}
+
+/* ----------------------------------------------- */
 .elem-main{
     background-color: green;
     grid-column-start: 1;
