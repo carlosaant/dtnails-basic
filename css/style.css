@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
 * {
     margin: 0;
@@ -133,8 +134,15 @@ html, body {
    
    /*Text*/
    .text-title {
-    font-size: 1.5em;
-    font-weight: bold;
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.6em;
+    /* font-weight: bold; */
+    font-family: 'Poppins', sans-serif;
+   }
+
+   .text-title img{
+       max-width: 40px;
    }
    
    /*Hover*/
