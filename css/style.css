@@ -9,6 +9,9 @@ html, body {
 }
 
 .container{
+    max-width: 1440px;
+    margin: 0 auto;
+
     display: grid;
     grid-template: auto auto auto / auto auto auto;
 }
@@ -32,7 +35,7 @@ html, body {
 }
 
 .menu-item{
-    max-width: 50px;
+    max-width: 40px;
     padding: 5px;
 }
 .menu-item img{
@@ -43,17 +46,17 @@ html, body {
 }
 
 .logo-div{
-    width: 400px;
-    height: 250px;
+    width: 800px;
+    height: 400px;
     padding: 10px;
+    margin: 10px;
     background-color: #FFF;
-    background-image: url(../assets/dt-logo.png);
+    background-image: url(../assets/images/handsnail-header.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 }
 
 /* ----------------------------------------------- */
