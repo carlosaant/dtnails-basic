@@ -197,13 +197,13 @@ html, body {
     background-color: #e8e8e8;
 
     background-image: url(../assets/images/hands-nails.png),
-                      url(../assets/images/hands-nails2.png);
+                      url(../assets/images/hands-nails3.png);
     background-repeat: no-repeat, no-repeat;
     background-size: contain, contain;
     background-position: right, left;
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 /* ----------------- */
