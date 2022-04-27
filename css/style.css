@@ -204,6 +204,7 @@ html, body {
 
     display: flex;
     justify-content: space-evenly;
+    box-shadow: inset 0px 5px 5px rgba(0,0,0,0.5);
 }
 
 /* ----------------- */
