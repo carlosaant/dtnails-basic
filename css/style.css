@@ -187,11 +187,77 @@ html, body {
     grid-column-start: 1;
     grid-column-end:  4;
     /* height: 500px; */
+
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .div-main-servicos{
+    width: 100%;
+    background-color: #e8e8e8;
 
+    display: flex;
+    justify-content: space-around;
 }
+
+/* ----------------- */
+
+/* From uiverse.io by @alexruix */
+.card-serv {
+    height: 320px;
+    width: 280px;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius: 1em;
+    box-shadow: 0 0 20px 8px #d0d0d0;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+   }
+   
+    /*Image*/
+   .card-image-serv {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    background: #940a0a;
+    background: linear-gradient(to top, #940a0a, #c42525);
+   }
+   
+   /*Description */
+   .card-description-serv {
+    display: flex;
+    position: absolute;
+    gap: 1em;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    height: 70%;
+    bottom: 0;
+    border-radius: 1em 1em 0 0;
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+    padding: 1rem;
+   }
+   
+   /*Text*/
+   .text-title-serv {
+    font-size: 1.4em;
+    font-weight: 700;
+   }
+   
+   .text-body-serv {
+    font-size: 1em;
+    line-height: 150%;
+   }
+   /* Hover states */
+   
+   .card-serv:hover .card-description-serv {
+    transform: translateY(100%);
+   }
+
+
+/* ------------------------------------------------------------- */
 
 .div-main-infos{
 
