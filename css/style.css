@@ -139,14 +139,18 @@ html, body {
     border-radius: 1rem;
     border: none;
     background-color: #C24F77;
-    color: #fff;
-    font-size: 1rem;
     padding: .5rem 1rem;
     position: absolute;
     left: 50%;
     bottom: 0;
     opacity: 0;
     transition: 0.3s ease-out;
+   }
+
+   .card-button a{
+       text-decoration: none;
+       color: #fff;
+       font-size: 1rem;
    }
    
    .text-body {
@@ -183,6 +187,14 @@ html, body {
     grid-column-start: 1;
     grid-column-end:  4;
     /* height: 500px; */
+}
+
+.div-main-servicos{
+
+}
+
+.div-main-infos{
+
 }
 
 .elem-footer{
