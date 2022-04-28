@@ -207,7 +207,7 @@ html, body {
     width: 100%;
     background-color: #e8e8e8;
 
-    background-image: url(../assets/images/hands-nails.png),
+    background-image: url(../assets/images/esmaltes-nails.png),
                       url(../assets/images/hands-nails3.png);
     background-repeat: no-repeat, no-repeat;
     background-size: contain, contain;
@@ -226,7 +226,7 @@ html, body {
 .card-serv {
     height: 320px;
     /* width: 280px; */
-    width: 20%;
+    width: 23%;
     position: relative;
     transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     border-radius: 1em;
@@ -290,7 +290,9 @@ html, body {
 /* ------------------------------------------------------------- */
 
 .div-main-infos{
-
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .elem-footer{
