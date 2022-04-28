@@ -214,6 +214,8 @@ html, body {
     background-position: right, left;
 
     display: flex;
+    flex-wrap: wrap;
+
     justify-content: space-evenly;
     box-shadow: inset 0px 5px 5px rgba(0,0,0,0.5);
 }
@@ -223,7 +225,8 @@ html, body {
 /* From uiverse.io by @alexruix */
 .card-serv {
     height: 320px;
-    width: 280px;
+    /* width: 280px; */
+    width: 20%;
     position: relative;
     transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
     border-radius: 1em;
