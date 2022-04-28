@@ -293,7 +293,27 @@ html, body {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    box-shadow: inset 0px 5px 5px rgba(0,0,0,0.5);
 }
+
+.div-info-sobre{
+    width: 50%;
+    height: 400px;
+    /* background-color: red; */
+    background-image: url('../assets/images/elements-smalts.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    
+}
+
+.div-info-mapa{
+    width: 50%;
+    
+    /* background-color: green; */
+}
+
+/* --------------------------------------------------------- */
 
 .elem-footer{
     background-color: #C24F77;
