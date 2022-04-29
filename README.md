@@ -12,7 +12,6 @@ Flexbox, grid
 
 * HTML
 * CSS
-Não foi utilizado frameworks
 
 ## ✒️ Autor
 
@@ -21,6 +20,6 @@ Não foi utilizado frameworks
 ## 📄 Imagens
 
 Imagens utilizadas no projeto estão sob a licença de uso gratuito.
-[Unsplash](https://unsplash.com/)
-[Pngegg](https://www.pngegg.com/)
+*[Unsplash](https://unsplash.com/)
+*[Pngegg](https://www.pngegg.com/)
 
