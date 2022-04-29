@@ -78,7 +78,7 @@ html, body {
     width: 320px;
     height: 260px;
 
-    padding: 0;
+    padding: 40px;
 
     display: flex;
     justify-content: center;
@@ -99,7 +99,7 @@ html, body {
 
 .title-div img{
     width: 100%;
-    transform: scale(1.2);
+    transform: scale(1.5);
 }
 
 .logo-div h1{
@@ -123,8 +123,8 @@ html, body {
 }
 /* -------------- */
 .card {
-    width: 400px;
-    height: 200px;
+    width: 290px;
+    height: 120px;
     border-radius: 20px;
     background: #f5f5f5;
     position: relative;
@@ -174,7 +174,7 @@ html, body {
    .text-title {
     display: flex;
     align-items: center;
-    font-size: 64px;
+    font-size: 40px;
     /* font-weight: bold; */
     font-family: 'Lavishly Yours', cursive;
    }
