@@ -102,25 +102,6 @@ html, body {
     transform: scale(1.5);
 }
 
-.logo-div h1{
-    font-family: 'Lavishly Yours', cursive;
-    font-size: 120px;
-    letter-spacing: 1.4px;
-    color: white;
-    text-shadow: 3px 5px 2px #502424;
-    transform: scale(1.1);
-    margin-left: 30px;
-    margin-bottom: -15px;
-}
-.logo-div h2{
-    font-family: 'Lavishly Yours', cursive;
-    font-size: 80px;
-    letter-spacing: 1.4px;
-    color: white;
-    text-shadow: 3px 5px 2px #502424;
-    transform: scale(1.1);
-    margin-left: 50px;
-}
 /* -------------- */
 .card {
     width: 290px;
@@ -156,12 +137,9 @@ html, body {
     bottom: 0;
     opacity: 0;
     transition: 0.3s ease-out;
-   }
 
-   .card-button a{
-       text-decoration: none;
-       color: #fff;
-       font-size: 1rem;
+    color: #fff;
+    font-size: 1rem;
    }
    
    .text-body {
