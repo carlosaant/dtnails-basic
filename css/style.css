@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-}
 
 html, body {
     height: 100vh;
@@ -75,8 +71,8 @@ html, body {
 }
 
 .title-div{
-    width: 320px;
-    height: 260px;
+    width: 380px;
+    height: 280px;
 
     padding: 40px;
 
@@ -105,7 +101,7 @@ html, body {
 /* -------------- */
 .card {
     width: 290px;
-    height: 120px;
+    height: 150px;
     border-radius: 20px;
     background: #f5f5f5;
     position: relative;
