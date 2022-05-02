@@ -220,8 +220,8 @@ html, body {
     width: 100%;
     position: absolute;
     transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
-    background: #940a0a;
-    background: linear-gradient(to top, #940a0a, #c42525);
+    background: #ff1616;
+    background: linear-gradient(to top, #c42525, #ff1616);;
    }
    .card-image-serv img{
     width: 100%; 
@@ -335,7 +335,7 @@ html, body {
 /* --------------------------------------------------------- */
 
 .elem-footer{
-    background-color: #C24F77;
+    background-color: #ff1616;
     grid-column-start: 1;
     grid-column-end:  4;
 
