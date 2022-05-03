@@ -315,20 +315,26 @@ body {
   margin-right: 0.5rem;
 }
 
-@media screen and (max-width: 800px) {
-  .card {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 480px) {
   .logo-div {
     width: 100%;
-    height: 30rem;
+    height: 23rem;
+    align-items: flex-start;
   }
-  .logo-img-div {
+
+  .title-div {
     width: 100%;
-    /* height: 230px; */
+    border-radius: 0;
+    margin-top: 0;
+  }
+  .title-div h1 {
+    font-size: 3rem;
+    padding: 1rem;
+  }
+
+  .logo-img-div {
+    width: 20rem;
+    height: 15rem;
     margin: 0.5rem;
     padding: 0;
   }
@@ -346,6 +352,7 @@ body {
     background-position: center;
 
     align-items: center;
+    border-radius: 0% 0% 50% 50%;
   }
   .card-serv {
     width: 80%;
@@ -366,5 +373,9 @@ body {
   }
   .card-mapa iframe {
     height: 15rem;
+  }
+
+  footer {
+    background: #ff1616;
   }
 }
